@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* regole contenitori */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+    
+}
+
+.container-label{
+    width: 32%;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.container-img{
+    display: flex;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+    color: white;
+    width: 100%;
+    gap: 15px;
+
+}
+
+/* regole di stile */
+h3{
+    font-size: 30px;
+}
+
+.title{
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.email{
+    font-size: 20px;
+    color: blue;
+}
