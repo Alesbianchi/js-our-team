@@ -38,14 +38,27 @@ body{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    
     color: white;
     width: 100%;
     gap: 15px;
 
 }
 
+.container-h1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    gap: 50px;
+}
+
 /* regole di stile */
+h1{
+    color: pink;
+    margin-bottom: 5%;
+    font-size: 50px;
+}
 h3{
     font-size: 30px;
 }
