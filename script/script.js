@@ -36,3 +36,17 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+console.log(teamMembers);
+
+//seleziono l'elemento dell'output
+
+//creo variabile vuota
+
+//ciclo for per scorrere l'array
+
+//estrapolo i valori delle proprietà
+
+//utilizzo il template literal per creare il template e copio il codice html
+
+// stampo risultato in pagina
