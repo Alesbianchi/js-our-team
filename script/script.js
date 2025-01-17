@@ -40,7 +40,7 @@ const teamMembers = [
 console.log(teamMembers);
 
 //seleziono l'elemento dell'output
-const label = document.querySelector(".container-label")
+const label = document.querySelector(".container")
 
 //creo variabile vuota
 let items = "";
@@ -54,22 +54,19 @@ for (let i = 0; i < teamMembers.length; i++) {
   
   //utilizzo il template literal per creare il template e copio il codice html
   items += `
-  <div class="container-label">
 
-    <!-- contenitori immagini -->
+  <div class="container-label">  
     <div class="container-img">
-      <img src="img/male1.png" alt="">
+      <img src="./${img}" alt="">
     </div>
             
-    <!-- contenitori testo -->
+    
     <div class="container-text">
-      <h3>MARCO BIANCHI</h3>
-      <div class="title">Designer</div>
-        <div class="email">marcobianchi@hotmail.it</div>
-      </div>
-
+      <h3>${name}</h3>
+      <div class="title">${role}</div>
+        <div class="email">${email}</div>
+    </div>
   </div>
-
   `
 
   console.log(items);
@@ -77,7 +74,5 @@ for (let i = 0; i < teamMembers.length; i++) {
 }
 
 
-
-
-
 // stampo risultato in pagina
+label.innerHTML = items;
