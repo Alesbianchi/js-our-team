@@ -48,15 +48,36 @@ let items = "";
 for (let i = 0; i < teamMembers.length; i++) {
   let memmbroIesimo = teamMembers[i];
   //estrapolo i valori delle proprietà
+  const {name, role, email, img} = memmbroIesimo;
 
+  // console.log(name, role, email, img);
+  
+  //utilizzo il template literal per creare il template e copio il codice html
+  items += `
+  <div class="container-label">
 
+    <!-- contenitori immagini -->
+    <div class="container-img">
+      <img src="img/male1.png" alt="">
+    </div>
+            
+    <!-- contenitori testo -->
+    <div class="container-text">
+      <h3>MARCO BIANCHI</h3>
+      <div class="title">Designer</div>
+        <div class="email">marcobianchi@hotmail.it</div>
+      </div>
 
+  </div>
 
+  `
 
+  console.log(items);
+  
 }
 
 
 
-//utilizzo il template literal per creare il template e copio il codice html
+
 
 // stampo risultato in pagina
