@@ -40,12 +40,22 @@ const teamMembers = [
 console.log(teamMembers);
 
 //seleziono l'elemento dell'output
+const label = document.querySelector(".container-label")
 
 //creo variabile vuota
-
+let items = "";
 //ciclo for per scorrere l'array
+for (let i = 0; i < teamMembers.length; i++) {
+  let memmbroIesimo = teamMembers[i];
+  //estrapolo i valori delle proprietà
 
-//estrapolo i valori delle proprietà
+
+
+
+
+}
+
+
 
 //utilizzo il template literal per creare il template e copio il codice html
 
